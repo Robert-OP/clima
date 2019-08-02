@@ -9,7 +9,7 @@ class Location {
           .getCurrentPosition(desiredAccuracy: LocationAccuracy.low);
       latitude = position.latitude;
       longitude = position.longitude;
-      print('$latitude, $longitude');
+//      print('$latitude, $longitude');
     } catch (e) {
       print(e);
     }
